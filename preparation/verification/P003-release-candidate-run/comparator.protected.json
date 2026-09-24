@@ -1,0 +1,20 @@
+{
+  "challenge_module": "Registry.P003.Challenge",
+  "solution_module": "Registry.P003.Solution",
+  "theorem_names": [
+    "DUnstableCores.parameterRich_consistent_core_necessity_fin4_fin5_false"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "external_kernels": {
+    "nanoda": [
+      "/root/.elan/toolchains/leanprover--lean4---v4.35.0-rc2/bin/nanoda_bin"
+    ],
+    "con-ron": [
+      "/root/.elan/toolchains/leanprover--lean4---v4.35.0-rc2/bin/con-ron"
+    ]
+  }
+}

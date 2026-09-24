@@ -1,0 +1,23 @@
+{
+  "paper": "P003",
+  "problems": [
+    6
+  ],
+  "historical_verification": "PASS",
+  "challenge": "COMPILES_TARGET_STATEMENT_ONLY",
+  "solution": "VERIFIED_TARGET",
+  "target_compilation": "PASS",
+  "comparator": "PASS",
+  "independent_kernels": "PASS_CON_RON_NANODA",
+  "statement_fidelity": "PASS_COMPARATOR_EXACT_DEFINITIONS_LITERATURE_REVIEW_PENDING",
+  "metadata_review": "PENDING",
+  "scope_gap": false,
+  "publication": "NOT_AUTHORIZED",
+  "submission": "NOT_AUTHORIZED",
+  "selected_declarations": [
+    "DUnstableCores.parameterRich_consistent_core_necessity_fin4_fin5_false"
+  ],
+  "verification_evidence": "preparation/verification/P003-release-candidate-run/result.json",
+  "lean_kernel": "PASS",
+  "windows_source_match": "preparation/verification/P003-ninth-run/windows-source-match.json"
+}

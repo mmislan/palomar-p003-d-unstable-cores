@@ -1,0 +1,68 @@
+{
+  "version": "v0.4",
+  "project": {
+    "name": "An exact counterexample to the D-unstable-core conjecture for parameter-rich reaction networks",
+    "description": "A consistent reaction network with four species and five reactions has an admissible parameter-rich Jacobian with an eigenvalue of strictly positive real part, yet has no D-unstable child-selection core. Consistency is expressed by a strictly positive stoichiometric kernel flux, and admissible reactivities are positive exactly on reactant incidences. The formal theorem refutes the corresponding universal necessity assertion for D-unstable cores.",
+    "authors": [
+      "Michael Mislan"
+    ],
+    "responsible_maintainers": [
+      "Michael Mislan"
+    ],
+    "license": "Apache-2.0"
+  },
+  "classification": {
+    "arxiv": [
+      "math.DS"
+    ],
+    "msc2020": [
+      "15A18",
+      "34D20"
+    ]
+  },
+  "sources": [
+    {
+      "title": "An exact counterexample to the D-unstable-core conjecture for parameter-rich reaction networks",
+      "authors": [
+        "Michael Mislan"
+      ],
+      "type": "paper",
+      "relationship": "formalizes",
+      "note": "Companion manuscript, Theorem 1.1 and the formalization section. The selected declaration is the consistency-scoped negation of D-unstable-core necessity for four species and five reactions.",
+      "location": "papers/P003/paper.pdf"
+    },
+    {
+      "title": "Unstable Cores are the source of instability in chemical reaction networks",
+      "type": "article",
+      "relationship": "background",
+      "note": "Conjecture 17, with child selections and D-unstable cores as defined in Sections 4 and 5. Proceedings of the Royal Society A 480 (2024), article 20230694.",
+      "authors": [
+        "Nicola Vassena",
+        "Peter F. Stadler"
+      ],
+      "id": "doi:10.1098/rspa.2023.0694",
+      "location": "https://arxiv.org/html/2308.11486v3#S5"
+    }
+  ],
+  "status": {
+    "scope": "A consistent reaction network with four species and five reactions has an admissible parameter-rich Jacobian with an eigenvalue of strictly positive real part, yet has no D-unstable child-selection core. Consistency is expressed by a strictly positive stoichiometric kernel flux, and admissible reactivities are positive exactly on reactant incidences. The formal theorem refutes the corresponding universal necessity assertion for D-unstable cores."
+  },
+  "automation": {
+    "methods": [
+      {
+        "method": "agent",
+        "tool_setup": "AI-assisted source migration, metadata preparation and statement packaging using Codex.",
+        "framework": "Codex",
+        "models": []
+      }
+    ],
+    "notes": "AI-assisted development and submission preparation. Complete historical model identifiers are not available in the preserved records and are not inferred. Current source/statement review is agent-assisted; no independent human mathematical review is asserted."
+  },
+  "review": {
+    "status": "agent-reviewed",
+    "notes": "The selected theorem passed the recorded local Comparator and kernel checks. A source-reading correspondence review is in entries/P003/CLAIM-EVIDENCE.md. This is not an independent human review or a new proof run."
+  },
+  "fidelity": {
+    "divergences": "The statement formalizes the consistency-scoped Jacobian necessity assertion in the parameter-rich formulation of Conjecture 17, using four species and five reactions. Its quantified data are the source stoichiometry, a positive kernel flux, admissible reactivity and spectral/core predicates. The manuscript also interprets these data through an explicit kinetic realization; the compared theorem is the stated Jacobian assertion."
+  }
+}

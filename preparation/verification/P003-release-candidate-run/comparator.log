@@ -1,0 +1,43 @@
+Resolving dependencies
+Building Registry.P003.Challenge
+⚠ [1022/1022] Built Registry.P003.Challenge (4.6s)
+warning: Registry/P003/Challenge.lean:160:8: declaration uses `sorry`
+Build completed successfully (1022 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, DUnstableCores.parameterRich_consistent_core_necessity_fin4_fin5_false, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Registry.P003.Challenge
+Building Registry.P003.Solution
+✔ [4117/4275] Built proofs.AutocatalyticCS.AnchorExchangeDAG (2.2s)
+✔ [5006/5179] Built proofs.AutocatalyticCS.Basic (2.5s)
+✔ [8045/8195] Built proofs.AutocatalyticCS.DirectPathPack (2.9s)
+✔ [8934/8954] Built proofs.AutocatalyticCS.SourceSemantics (9.4s)
+✔ [8935/8954] Built proofs.AutocatalyticCS.MatchingIndex (2.8s)
+✔ [8936/8954] Built proofs.DUnstableCores.DScaling (36s)
+✔ [8937/8954] Built proofs.DUnstableCores.Source (37s)
+✔ [8938/8954] Built proofs.DUnstableCores.Minimality (10s)
+✔ [8939/8954] Built proofs.DUnstableCores.Certificates (10s)
+✔ [8940/8954] Built proofs.DUnstableCores.DiagonalDissipative (11s)
+✔ [8941/8954] Built proofs.DUnstableCores.CharPoly (10s)
+✔ [8942/8954] Built proofs.DUnstableCores.EigenpairFromRoot (7.2s)
+✔ [8943/8954] Built proofs.DUnstableCores.CauchyBinet (7.4s)
+✔ [8944/8954] Built proofs.DUnstableCores.ReindexDNon (8.2s)
+✔ [8945/8954] Built proofs.DUnstableCores.CharacteristicLocalization (8.8s)
+✔ [8946/8954] Built proofs.DUnstableCores.PositiveRealLocalization (7.7s)
+✔ [8947/8954] Built proofs.DUnstableCores.SupportedWeightNormalization (7.2s)
+✔ [8948/8954] Built proofs.DUnstableCores.PositiveRealChild (5.8s)
+✔ [8949/8954] Built proofs.DUnstableCores.ComplexReduction (5.9s)
+✔ [8950/8954] Built proofs.DUnstableCores.RouthHurwitzDim3 (11s)
+✔ [8951/8954] Built proofs.DUnstableCores.ColumnConeDim3 (6.6s)
+✔ [8952/8954] Built proofs.DUnstableCores.CubicCoefficientsDim3 (9.2s)
+✔ [8953/8954] Built proofs.DUnstableCores.ParameterRichCounterexample (13s)
+✔ [8954/8954] Built Registry.P003.Solution (6.4s)
+Build completed successfully (8954 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, DUnstableCores.parameterRich_consistent_core_necessity_fin4_fin5_false, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Registry.P003.Solution
+Running con-ron kernel on solution
+con-ron: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)
+con-ron: 2 declarations hoisted ahead of the pinned Nat operations they ground: Nat.mul._f, Nat.mul
+con-ron: accepted 57351 declarations (--verified)
+con-ron kernel accepts the solution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!
