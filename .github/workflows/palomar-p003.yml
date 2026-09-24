@@ -13,4 +13,4 @@ jobs:
       request_id: p003cloud001
       mode: full
       execution_profile: palomar-standard-v1
-      options: '{"comparator_config_path":"entries/P003/comparator.json","formalization_metadata_path":"entries/P003/formalization.yaml","authorization_relationship":"maintainer"}'
+      options: '{"comparator_config_path":"entries/P003/comparator.json","formalization_metadata_path":"entries/P003/formalization.yaml","authorization_relationship":"I am a responsible author or maintainer"}'
