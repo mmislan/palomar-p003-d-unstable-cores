@@ -10,7 +10,7 @@ jobs:
       repository: ${{ github.repository }}
       commit: ${{ github.sha }}
       pipeline_commit: 1703d7babd984ccc3831cdf89c28221abe34808f
-      request_id: p003-${{ github.run_id }}-${{ github.run_attempt }}
+      request_id: p003cloud001
       mode: full
       execution_profile: palomar-standard-v1
-      options: '{"comparator_config_path":"entries/P003/comparator.json","formalization_metadata_path":"entries/P003/formalization.yaml"}'
+      options: '{"comparator_config_path":"entries/P003/comparator.json","formalization_metadata_path":"entries/P003/formalization.yaml","authorization_relationship":"maintainer"}'
